@@ -11,5 +11,9 @@ In Command Line:
 
 Look into home directory, copy vendored folder into project source folder.
 
-### Exporting and Releasing
+### Exporting and Releasing (Windows)
+1. `cmake -S . -B build/release -G "Ninja" -DCMAKE_BUILD_TYPE=Release`
+2. `cmake --build build/release`
+
+### Exporting and Releasing (MacOS)
 Look inside of `CMakeLists.txt` and `build.sh` for commented changes.
